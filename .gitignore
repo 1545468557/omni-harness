@@ -71,3 +71,6 @@ config.yaml.bak
 
 # Monocle agent-observability trace output (local file exporter)
 .monocle/
+
+# Locally downloaded CLI binaries (railway, cloudflared) — not part of the project
+/tools/
