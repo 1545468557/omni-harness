@@ -4,7 +4,7 @@
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./legal/LICENSE)
 
 OmniHarness 是一个开源的 **super agent harness**。它把 **sub-agents**、**memory** 和 **sandbox** 组织在一起，再配合可扩展的 **skills**，让 agent 能完成从几分钟到几小时不等的任务。
 
@@ -106,4 +106,4 @@ OmniHarness 具备**执行系统命令、读写文件**等高权限能力，默�
 
 ## 许可证
 
-本项目采用 [MIT License](./LICENSE) 开源发布。
+本项目采用 [MIT License](./legal/LICENSE) 开源发布。
