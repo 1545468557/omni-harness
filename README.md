@@ -4,7 +4,7 @@ English | [中文](./README_zh.md)
 
 [![Python](https://img.shields.io/badge/Python-3.12%2B-3776AB?logo=python&logoColor=white)](./backend/pyproject.toml)
 [![Node.js](https://img.shields.io/badge/Node.js-22%2B-339933?logo=node.js&logoColor=white)](./Makefile)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./legal/LICENSE)
 
 OmniHarness is an open-source **super agent harness**. It combines **sub-agents**, **memory** and **sandboxed execution** with extensible **skills**, so agents can complete tasks that range from minutes to hours.
 
@@ -106,4 +106,4 @@ Treat admin access as equivalent to code execution on the host.
 
 ## License
 
-Released under the [MIT License](./LICENSE).
+Released under the [MIT License](./legal/LICENSE).
