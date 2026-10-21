@@ -89,7 +89,7 @@ function SkillList({ skills, query }: { skills: Skill[]; query: string }) {
   const { user } = useAuth();
   const isAdmin = user?.system_role === "admin";
   const [exportName, setExportName] = useState<string | null>(null);
-  const [filter, setFilter] = useState<string>("public");
+  const [filter, setFilter] = useState<string>("all");
   const { mutate: enableSkill, isPending: isEnabling } = useEnableSkill();
   const [selectedSkill, setSelectedSkill] = useState<Skill | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
@@ -185,9 +185,6 @@ function SkillList({ skills, query }: { skills: Skill[]; query: string }) {
       <header className="mt-2 flex flex-wrap items-center justify-between gap-3">
         <Tabs value={filter} onValueChange={setFilter}>
           <TabsList className="bg-muted/50 h-9 rounded-lg">
-            <TabsTrigger value="public" className="rounded-md px-3 text-xs">
-              {t.capabilities.builtin}
-            </TabsTrigger>
             <TabsTrigger value="community" className="rounded-md px-3 text-xs">
               {t.capabilities.community}
             </TabsTrigger>

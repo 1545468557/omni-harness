@@ -197,8 +197,6 @@ export const enUS: Translations = {
   // Welcome
   welcome: {
     greeting: "Hello, again!",
-    description:
-      "Welcome to OmniHarness, an open source super agent. With built-in and custom skills, OmniHarness helps you search on the web, analyze data, and generate artifacts like slides, web pages and do almost anything.",
 
     createYourOwnSkill: "Create Your Own Skill",
     createYourOwnSkillDescription:
